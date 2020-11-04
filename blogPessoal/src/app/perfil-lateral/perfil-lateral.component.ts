@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./perfil-lateral.component.css']
 })
 export class PerfilLateralComponent implements OnInit {
-
+  
+  nome: string='Ville Valo fan page';
+  
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(){
+    
   }
 
 }

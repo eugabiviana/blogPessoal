@@ -1,4 +1,9 @@
 .texto{
     letter-spacing: .2rem;
-    font-size: 16pt;
+    font-size: 16pt;  
+    background-color:  #59252A!important; 
+    color: #BFAF9B!important;
+}
+body{
+    background-color:  #59252A!important; 
 }
