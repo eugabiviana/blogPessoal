@@ -9,11 +9,11 @@
             <div>
                 <div class="form-group">
                     <label for="nome">Nome</label>
-                    <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome aqui" [(ngModule)]='user.nome'>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome aqui" [(ngModel)]='user.nome'>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="text" class="form-control" id="email" placeholder="nome@exemplo.com" [(ngModule)]='user.usuario'>
+                    <input type="text" class="form-control" id="email" placeholder="nome@exemplo.com" [(ngModel)]='user.usuario'>
                 </div>
                 <div class="form-group">
                     <label for="senha">Senha</label>
@@ -22,7 +22,7 @@
                 <div class="form-group">
                     <label for="senhaConf">Confirmar Senha</label>
                     <input type="password" class="form-control" id="senhaConf"
-                        placeholder="Digite a confirmação de senha" [(ngModule)]='user.usuario'>
+                        placeholder="Digite a confirmação de senha" [(ngModel)]='user.senha'>
                 </div>
                 <div class="d-flex justify-content-center">
                     <button class="btn btn-outline-success w-25" (click)='cadastrar()'>Cadastrar</button>
