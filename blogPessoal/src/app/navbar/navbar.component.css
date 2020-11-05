@@ -1,9 +1,14 @@
-.texto{
+.texto {
     letter-spacing: .2rem;
     font-size: 16pt;  
     background-color:  #59252A!important; 
     color: #BFAF9B!important;
 }
+
+a {
+    cursor: pointer;
+}
+
 body{
     background-color:  #59252A!important; 
 }
