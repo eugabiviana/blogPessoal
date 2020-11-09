@@ -3,7 +3,7 @@
 ul.social-network {
     list-style: none;
     display: inline;
-
+    
     padding: 0;
 }
 
@@ -28,3 +28,5 @@ ul.social-network li {
 .faInstagram:hover{
     color: #C13584;
 }
+
+

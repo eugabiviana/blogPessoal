@@ -1,14 +1,12 @@
 .texto {
     letter-spacing: .2rem;
     font-size: 16pt;  
-    background-color:  #59252A!important; 
-    color: #BFAF9B!important;
+    background-color:#6C757D!important;
+    color: #0D0D0D!important;
 }
 
 a {
     cursor: pointer;
 }
 
-body{
-    background-color:  #59252A!important; 
-}
+
